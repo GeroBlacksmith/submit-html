@@ -1,0 +1,17 @@
+form{
+    display: flex;
+    flex-direction: column;
+    textarea{
+        height: 80vh;
+    }
+    button{
+        height: 6vh;
+        background-color: limegreen;
+        border:none;
+        cursor: pointer;
+        transition: 300ms ease all;
+        &:hover{
+            background: #02ab02;
+        }
+    }
+}
