@@ -10,7 +10,6 @@ export class AppComponent {
 
   }
   onSubmit(f){
-    console.log(f.value.convertir);
     html2pdf(f.value.convertir);
   }
 }
